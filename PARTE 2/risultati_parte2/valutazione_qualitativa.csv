@@ -1,0 +1,18 @@
+Categoria,Prompt,Modello,Risposta,Cortesia,Informatività,Risoluzione,Chiarezza,Sicurezza,Commento
+Educazione,What is reinforcement learning?,Base,"The answer to this question can be found in the following sections.
+The best way for us to learn from our mistakes and give back what we have done as a group, will always involve doing something that people would never do before or after (e",3,1,1,2,3,Non definisce il reinforcement learning; discorso generico e interrotto.
+Educazione,What is reinforcement learning?,SFT,"The first thing that I want to say about this topic in the post was how you can learn a lot from experience. The second question, which people have been asking me for quite some time now on my own and what they think of it all",3,1,1,2,3,"Parla di esperienza e di un post, senza agente, ambiente o reward."
+Educazione,What is reinforcement learning?,RLHF,"Learning in real life, not just a theory of how to learn it. It’s the same thing as teaching about motivation and creativity—that's what motivates you for doing that stuff right now…
+You can get started by taking part",3,2,1,2,2,"Richiama l'apprendimento, ma non spiega il ruolo delle ricompense."
+Coding,How do I read a CSV file in Python?,Base,"Yes, you can download the latest version of SQL Server to see how it works.
+The following code uses this same technique for reading JSON files from your web server and using MySQL database as an example output into Excel format (as shown above): Note",3,1,1,2,2,"Propone SQL Server, JSON e MySQL: non legge un CSV con Python."
+Coding,How do I read a CSV file in Python?,SFT,"No. There are three main ways to parse the files, and each of them has its own unique value
+The first is that you can use python as your source code language for parsing JSON documents or writing XML document data from text-encoded strings",3,1,1,2,2,Risposta negativa e fuori tema su JSON/XML; manca un esempio CSV.
+Coding,How do I read a CSV file in Python?,RLHF,"What is the value of an array, or does it contain any values that are not yet present on your machine ?
+I've used python for over 2 years now and have tried to use one thing at once. The first time my application was working",3,1,1,2,3,"Aneddoto personale e array, senza una procedura per il CSV."
+Customer care,How do I track my order?,Base,"What's the problem with a ""best"" Order of Duty.
+The best orders are those that have no business being paid by their customers and they can't afford to buy them for free, but only when there is something wrong in this market which",2,1,1,1,2,Confusione fra ordine e acquisto; nessuna istruzione di tracking.
+Customer care,How do I track my order?,SFT,"What are the items you want to buy for a friend of mine, and what's your favorite item in their cart inventory.
+I am currently tracking all purchases from Amazon on Facebook!",3,1,1,3,2,"Testo leggibile, ma parla di carrello e Facebook invece del tracking."
+Customer care,How do I track my order?,RLHF,"""I can't.""
+The first thing you need to know is that the following will help with your orders. For example, if a package arrives at me and it doesn´t arrive in one place when they have been sent out by UPS or",3,2,1,2,2,"Accenna a pacchi e UPS, ma non indica dove verificare il tracking."

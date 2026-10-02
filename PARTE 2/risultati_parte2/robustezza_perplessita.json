@@ -1,0 +1,218 @@
+{
+  "predizioni": [
+    {
+      "Modello": "Base",
+      "File": "testo 1.txt",
+      "Categoria": "news",
+      "Pred_pulito": "news",
+      "Pred_rumoroso": "news",
+      "Testo_originale": "Il Ministero dell’Ambiente ha annunciato un nuovo piano nazionale per la riduzione delle emissioni entro il 2035. Secondo il comunicato ufficiale, saranno introdotti incentivi fiscali per le aziende che investiranno in energie rinnovabili e tecn a basso impatto ambientale. Gli esperti ritengono che il programma possa favorire una crescita significativa del settore green e creare migliaia di nuovi posti di lavoro nei prossimi anni.\"",
+      "Testo_rumoroso": "Il Minstero dell’Ambiente ha annunciato un nuovo piano nazionale per la riduzione delle emissioni entro il 2035. Secndo il comunicato ufficiale, saranno introdotti incentivi fiscali per le aziende ke investiranno in energie rinnovabili e tecn a basso impatto ambientale. Gli esperti ritengono ke il programma possa favorire una crescita significativa del settore green e creare migliaia di nuovi posti di lavoro nei prossimi anni.\"",
+      "NLL_pulito": {
+        "news": 6.740518569946289,
+        "fiction": 8.868478775024414,
+        "code": 9.72880744934082
+      },
+      "NLL_rumoroso": {
+        "news": 6.987961292266846,
+        "fiction": 8.828407287597656,
+        "code": 9.753765106201172
+      }
+    },
+    {
+      "Modello": "Base",
+      "File": "testo 2.txt",
+      "Categoria": "fiction",
+      "Pred_pulito": "news",
+      "Pred_rumoroso": "news",
+      "Testo_originale": "\"La pioggia cadeva lenta sulle strade deserte mentre Marta osservava le luc della città dalla finestra del vecchio appartamento. Sul tavolo, una lettera ingiallita dal tempo raccontava segreti che nessuno aveva mai avuto coraggio di pronunciare ad alta voce. Og parola sembrava riportare alla memoria ricordi dimenticati e promesse mai mantenute.",
+      "Testo_rumoroso": "\"La piogia cadeva lenta sulle strade deserte mntre Marta osservava le luc della città dalla finestra del vecchio appartamento. Sul tavolo, una lettera ingiallita dal tempo raccontava segreti ke nessuno aveva mai avuto coraggio di pronunciare ad alta voce. Og parola sembrava riportare alla memoria ricordi dimenticati e promesse mai mantenute.",
+      "NLL_pulito": {
+        "news": 5.821197509765625,
+        "fiction": 6.936779022216797,
+        "code": 8.593608856201172
+      },
+      "NLL_rumoroso": {
+        "news": 5.809710502624512,
+        "fiction": 6.935389518737793,
+        "code": 8.613001823425293
+      }
+    },
+    {
+      "Modello": "Base",
+      "File": "testo 3.txt",
+      "Categoria": "code",
+      "Pred_pulito": "code",
+      "Pred_rumoroso": "news",
+      "Testo_originale": "pythondef fibonacci(n):\n    sequence = [0, ]\n    for i in range(2, n):\n        for i in range(2, n):\n        sequence.append(sequence[i-1] + sequence[i-1] + sequence[i-2])\n    return sequence\nprint(fibonacci(10))",
+      "Testo_rumoroso": "pythondef fibonacci(n):\n    seqnce = [0, ]\n    for i in range(2, n):\n        for i in range(2, n):\n        seqnce.append(seqnce[i-1] + seqnce[i-1] + seqnce[i-2])\n    retrn seqnce\nprint(fibonacci(10))",
+      "NLL_pulito": {
+        "news": 5.803930282592773,
+        "fiction": 6.937841415405273,
+        "code": 5.698232650756836
+      },
+      "NLL_rumoroso": {
+        "news": 5.644065856933594,
+        "fiction": 7.011775970458984,
+        "code": 5.815097808837891
+      }
+    },
+    {
+      "Modello": "SFT",
+      "File": "testo 1.txt",
+      "Categoria": "news",
+      "Pred_pulito": "news",
+      "Pred_rumoroso": "news",
+      "Testo_originale": "Il Ministero dell’Ambiente ha annunciato un nuovo piano nazionale per la riduzione delle emissioni entro il 2035. Secondo il comunicato ufficiale, saranno introdotti incentivi fiscali per le aziende che investiranno in energie rinnovabili e tecn a basso impatto ambientale. Gli esperti ritengono che il programma possa favorire una crescita significativa del settore green e creare migliaia di nuovi posti di lavoro nei prossimi anni.\"",
+      "Testo_rumoroso": "Il Minstero dell’Ambiente ha annunciato un nuovo piano nazionale per la riduzione delle emissioni entro il 2035. Secndo il comunicato ufficiale, saranno introdotti incentivi fiscali per le aziende ke investiranno in energie rinnovabili e tecn a basso impatto ambientale. Gli esperti ritengono ke il programma possa favorire una crescita significativa del settore green e creare migliaia di nuovi posti di lavoro nei prossimi anni.\"",
+      "NLL_pulito": {
+        "news": 6.740518569946289,
+        "fiction": 8.868478775024414,
+        "code": 9.72880744934082
+      },
+      "NLL_rumoroso": {
+        "news": 6.987961292266846,
+        "fiction": 8.828407287597656,
+        "code": 9.753765106201172
+      }
+    },
+    {
+      "Modello": "SFT",
+      "File": "testo 2.txt",
+      "Categoria": "fiction",
+      "Pred_pulito": "news",
+      "Pred_rumoroso": "news",
+      "Testo_originale": "\"La pioggia cadeva lenta sulle strade deserte mentre Marta osservava le luc della città dalla finestra del vecchio appartamento. Sul tavolo, una lettera ingiallita dal tempo raccontava segreti che nessuno aveva mai avuto coraggio di pronunciare ad alta voce. Og parola sembrava riportare alla memoria ricordi dimenticati e promesse mai mantenute.",
+      "Testo_rumoroso": "\"La piogia cadeva lenta sulle strade deserte mntre Marta osservava le luc della città dalla finestra del vecchio appartamento. Sul tavolo, una lettera ingiallita dal tempo raccontava segreti ke nessuno aveva mai avuto coraggio di pronunciare ad alta voce. Og parola sembrava riportare alla memoria ricordi dimenticati e promesse mai mantenute.",
+      "NLL_pulito": {
+        "news": 5.821197509765625,
+        "fiction": 6.936779022216797,
+        "code": 8.593608856201172
+      },
+      "NLL_rumoroso": {
+        "news": 5.809710502624512,
+        "fiction": 6.935389518737793,
+        "code": 8.613001823425293
+      }
+    },
+    {
+      "Modello": "SFT",
+      "File": "testo 3.txt",
+      "Categoria": "code",
+      "Pred_pulito": "code",
+      "Pred_rumoroso": "news",
+      "Testo_originale": "pythondef fibonacci(n):\n    sequence = [0, ]\n    for i in range(2, n):\n        for i in range(2, n):\n        sequence.append(sequence[i-1] + sequence[i-1] + sequence[i-2])\n    return sequence\nprint(fibonacci(10))",
+      "Testo_rumoroso": "pythondef fibonacci(n):\n    seqnce = [0, ]\n    for i in range(2, n):\n        for i in range(2, n):\n        seqnce.append(seqnce[i-1] + seqnce[i-1] + seqnce[i-2])\n    retrn seqnce\nprint(fibonacci(10))",
+      "NLL_pulito": {
+        "news": 5.803930282592773,
+        "fiction": 6.937841415405273,
+        "code": 5.698232650756836
+      },
+      "NLL_rumoroso": {
+        "news": 5.644065856933594,
+        "fiction": 7.011775970458984,
+        "code": 5.815097808837891
+      }
+    },
+    {
+      "Modello": "RLHF",
+      "File": "testo 1.txt",
+      "Categoria": "news",
+      "Pred_pulito": "news",
+      "Pred_rumoroso": "news",
+      "Testo_originale": "Il Ministero dell’Ambiente ha annunciato un nuovo piano nazionale per la riduzione delle emissioni entro il 2035. Secondo il comunicato ufficiale, saranno introdotti incentivi fiscali per le aziende che investiranno in energie rinnovabili e tecn a basso impatto ambientale. Gli esperti ritengono che il programma possa favorire una crescita significativa del settore green e creare migliaia di nuovi posti di lavoro nei prossimi anni.\"",
+      "Testo_rumoroso": "Il Minstero dell’Ambiente ha annunciato un nuovo piano nazionale per la riduzione delle emissioni entro il 2035. Secndo il comunicato ufficiale, saranno introdotti incentivi fiscali per le aziende ke investiranno in energie rinnovabili e tecn a basso impatto ambientale. Gli esperti ritengono ke il programma possa favorire una crescita significativa del settore green e creare migliaia di nuovi posti di lavoro nei prossimi anni.\"",
+      "NLL_pulito": {
+        "news": 6.740518569946289,
+        "fiction": 8.868478775024414,
+        "code": 9.72880744934082
+      },
+      "NLL_rumoroso": {
+        "news": 6.987961292266846,
+        "fiction": 8.828407287597656,
+        "code": 9.753765106201172
+      }
+    },
+    {
+      "Modello": "RLHF",
+      "File": "testo 2.txt",
+      "Categoria": "fiction",
+      "Pred_pulito": "news",
+      "Pred_rumoroso": "news",
+      "Testo_originale": "\"La pioggia cadeva lenta sulle strade deserte mentre Marta osservava le luc della città dalla finestra del vecchio appartamento. Sul tavolo, una lettera ingiallita dal tempo raccontava segreti che nessuno aveva mai avuto coraggio di pronunciare ad alta voce. Og parola sembrava riportare alla memoria ricordi dimenticati e promesse mai mantenute.",
+      "Testo_rumoroso": "\"La piogia cadeva lenta sulle strade deserte mntre Marta osservava le luc della città dalla finestra del vecchio appartamento. Sul tavolo, una lettera ingiallita dal tempo raccontava segreti ke nessuno aveva mai avuto coraggio di pronunciare ad alta voce. Og parola sembrava riportare alla memoria ricordi dimenticati e promesse mai mantenute.",
+      "NLL_pulito": {
+        "news": 5.821197509765625,
+        "fiction": 6.936779022216797,
+        "code": 8.593608856201172
+      },
+      "NLL_rumoroso": {
+        "news": 5.809710502624512,
+        "fiction": 6.935389518737793,
+        "code": 8.613001823425293
+      }
+    },
+    {
+      "Modello": "RLHF",
+      "File": "testo 3.txt",
+      "Categoria": "code",
+      "Pred_pulito": "code",
+      "Pred_rumoroso": "news",
+      "Testo_originale": "pythondef fibonacci(n):\n    sequence = [0, ]\n    for i in range(2, n):\n        for i in range(2, n):\n        sequence.append(sequence[i-1] + sequence[i-1] + sequence[i-2])\n    return sequence\nprint(fibonacci(10))",
+      "Testo_rumoroso": "pythondef fibonacci(n):\n    seqnce = [0, ]\n    for i in range(2, n):\n        for i in range(2, n):\n        seqnce.append(seqnce[i-1] + seqnce[i-1] + seqnce[i-2])\n    retrn seqnce\nprint(fibonacci(10))",
+      "NLL_pulito": {
+        "news": 5.803930282592773,
+        "fiction": 6.937841415405273,
+        "code": 5.698232650756836
+      },
+      "NLL_rumoroso": {
+        "news": 5.644065856933594,
+        "fiction": 7.011775970458984,
+        "code": 5.815097808837891
+      }
+    }
+  ],
+  "robustezza": [
+    {
+      "Modello": "Base",
+      "Macro-F1 (pulito)": 0.5555555555555555,
+      "Macro-F1 (rumoroso)": 0.16666666666666666,
+      "Delta Macro-F1": -0.38888888888888884,
+      "Accuracy (pulito)": 0.6666666666666666,
+      "Accuracy (rumoroso)": 0.3333333333333333
+    },
+    {
+      "Modello": "SFT",
+      "Macro-F1 (pulito)": 0.5555555555555555,
+      "Macro-F1 (rumoroso)": 0.16666666666666666,
+      "Delta Macro-F1": -0.38888888888888884,
+      "Accuracy (pulito)": 0.6666666666666666,
+      "Accuracy (rumoroso)": 0.3333333333333333
+    },
+    {
+      "Modello": "RLHF",
+      "Macro-F1 (pulito)": 0.5555555555555555,
+      "Macro-F1 (rumoroso)": 0.16666666666666666,
+      "Delta Macro-F1": -0.38888888888888884,
+      "Accuracy (pulito)": 0.6666666666666666,
+      "Accuracy (rumoroso)": 0.3333333333333333
+    }
+  ],
+  "perplessita": [
+    {
+      "Categoria": "code",
+      "File": "testo 3.txt",
+      "Perplessità": 11.839001655578613
+    },
+    {
+      "Categoria": "news",
+      "File": "testo 1.txt",
+      "Perplessità": 247.5236358642578
+    },
+    {
+      "Categoria": "fiction",
+      "File": "testo 2.txt",
+      "Perplessità": 275.9267272949219
+    }
+  ]
+}

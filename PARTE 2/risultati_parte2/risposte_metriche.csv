@@ -1,0 +1,42 @@
+Categoria,Prompt,Reference,Modello,Risposta,BLEU,ROUGE-1,BERTScore
+Educazione,What is reinforcement learning?,Reinforcement learning is a type of ML where an agent learns by interacting with an environment and receiving rewards.,Base,"The answer to this question can be found in the following sections.
+The best way for us to learn from our mistakes and give back what we have done as a group, will always involve doing something that people would never do before or after (e",0.004753731294736233,0.0923076923076923,0.8358806371688843
+Educazione,What is reinforcement learning?,Reinforcement learning is a type of ML where an agent learns by interacting with an environment and receiving rewards.,SFT,"The first thing that I want to say about this topic in the post was how you can learn a lot from experience. The second question, which people have been asking me for quite some time now on my own and what they think of it all",0.005145174324020217,0.12121212121212122,0.8325269818305969
+Educazione,What is reinforcement learning?,Reinforcement learning is a type of ML where an agent learns by interacting with an environment and receiving rewards.,RLHF,"Learning in real life, not just a theory of how to learn it. It’s the same thing as teaching about motivation and creativity—that's what motivates you for doing that stuff right now…
+You can get started by taking part",0.007094215779738816,0.19672131147540983,0.8306573033332825
+Coding,How do I read a CSV file in Python?,"Use the pandas library for easy CSV handling:
+
+```python
+import pandas as pd
+df = pd.read_csv('file.csv')
+print(df.head())
+```
+
+Alternatively, use the built-in csv module for more control.",Base,"Yes, you can download the latest version of SQL Server to see how it works.
+The following code uses this same technique for reading JSON files from your web server and using MySQL database as an example output into Excel format (as shown above): Note",0.005783214009218943,0.20779220779220778,0.8247115015983582
+Coding,How do I read a CSV file in Python?,"Use the pandas library for easy CSV handling:
+
+```python
+import pandas as pd
+df = pd.read_csv('file.csv')
+print(df.head())
+```
+
+Alternatively, use the built-in csv module for more control.",SFT,"No. There are three main ways to parse the files, and each of them has its own unique value
+The first is that you can use python as your source code language for parsing JSON documents or writing XML document data from text-encoded strings",0.0062589852960783475,0.18181818181818185,0.8117328882217407
+Coding,How do I read a CSV file in Python?,"Use the pandas library for easy CSV handling:
+
+```python
+import pandas as pd
+df = pd.read_csv('file.csv')
+print(df.head())
+```
+
+Alternatively, use the built-in csv module for more control.",RLHF,"What is the value of an array, or does it contain any values that are not yet present on your machine ?
+I've used python for over 2 years now and have tried to use one thing at once. The first time my application was working",0.005653171078511422,0.15384615384615383,0.808779776096344
+Customer care,How do I track my order?,You can track your order by logging into your account. Go to My Orders and enter your order number.,Base,"What's the problem with a ""best"" Order of Duty.
+The best orders are those that have no business being paid by their customers and they can't afford to buy them for free, but only when there is something wrong in this market which",0.006409912521492096,0.18750000000000003,0.8330481052398682
+Customer care,How do I track my order?,You can track your order by logging into your account. Go to My Orders and enter your order number.,SFT,"What are the items you want to buy for a friend of mine, and what's your favorite item in their cart inventory.
+I am currently tracking all purchases from Amazon on Facebook!",0.00825101291002796,0.19230769230769232,0.850933313369751
+Customer care,How do I track my order?,You can track your order by logging into your account. Go to My Orders and enter your order number.,RLHF,"""I can't.""
+The first thing you need to know is that the following will help with your orders. For example, if a package arrives at me and it doesn´t arrive in one place when they have been sent out by UPS or",0.006568301273760529,0.22222222222222218,0.8363344669342041

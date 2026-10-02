@@ -1,0 +1,46 @@
+Modello,File,Categoria,Pred_pulito,Pred_rumoroso,Testo_originale,Testo_rumoroso
+Base,testo 1.txt,news,news,news,"Il Ministero dell’Ambiente ha annunciato un nuovo piano nazionale per la riduzione delle emissioni entro il 2035. Secondo il comunicato ufficiale, saranno introdotti incentivi fiscali per le aziende che investiranno in energie rinnovabili e tecn a basso impatto ambientale. Gli esperti ritengono che il programma possa favorire una crescita significativa del settore green e creare migliaia di nuovi posti di lavoro nei prossimi anni.""","Il Minstero dell’Ambiente ha annunciato un nuovo piano nazionale per la riduzione delle emissioni entro il 2035. Secndo il comunicato ufficiale, saranno introdotti incentivi fiscali per le aziende ke investiranno in energie rinnovabili e tecn a basso impatto ambientale. Gli esperti ritengono ke il programma possa favorire una crescita significativa del settore green e creare migliaia di nuovi posti di lavoro nei prossimi anni."""
+Base,testo 2.txt,fiction,news,news,"""La pioggia cadeva lenta sulle strade deserte mentre Marta osservava le luc della città dalla finestra del vecchio appartamento. Sul tavolo, una lettera ingiallita dal tempo raccontava segreti che nessuno aveva mai avuto coraggio di pronunciare ad alta voce. Og parola sembrava riportare alla memoria ricordi dimenticati e promesse mai mantenute.","""La piogia cadeva lenta sulle strade deserte mntre Marta osservava le luc della città dalla finestra del vecchio appartamento. Sul tavolo, una lettera ingiallita dal tempo raccontava segreti ke nessuno aveva mai avuto coraggio di pronunciare ad alta voce. Og parola sembrava riportare alla memoria ricordi dimenticati e promesse mai mantenute."
+Base,testo 3.txt,code,code,news,"pythondef fibonacci(n):
+    sequence = [0, ]
+    for i in range(2, n):
+        for i in range(2, n):
+        sequence.append(sequence[i-1] + sequence[i-1] + sequence[i-2])
+    return sequence
+print(fibonacci(10))","pythondef fibonacci(n):
+    seqnce = [0, ]
+    for i in range(2, n):
+        for i in range(2, n):
+        seqnce.append(seqnce[i-1] + seqnce[i-1] + seqnce[i-2])
+    retrn seqnce
+print(fibonacci(10))"
+SFT,testo 1.txt,news,news,news,"Il Ministero dell’Ambiente ha annunciato un nuovo piano nazionale per la riduzione delle emissioni entro il 2035. Secondo il comunicato ufficiale, saranno introdotti incentivi fiscali per le aziende che investiranno in energie rinnovabili e tecn a basso impatto ambientale. Gli esperti ritengono che il programma possa favorire una crescita significativa del settore green e creare migliaia di nuovi posti di lavoro nei prossimi anni.""","Il Minstero dell’Ambiente ha annunciato un nuovo piano nazionale per la riduzione delle emissioni entro il 2035. Secndo il comunicato ufficiale, saranno introdotti incentivi fiscali per le aziende ke investiranno in energie rinnovabili e tecn a basso impatto ambientale. Gli esperti ritengono ke il programma possa favorire una crescita significativa del settore green e creare migliaia di nuovi posti di lavoro nei prossimi anni."""
+SFT,testo 2.txt,fiction,news,news,"""La pioggia cadeva lenta sulle strade deserte mentre Marta osservava le luc della città dalla finestra del vecchio appartamento. Sul tavolo, una lettera ingiallita dal tempo raccontava segreti che nessuno aveva mai avuto coraggio di pronunciare ad alta voce. Og parola sembrava riportare alla memoria ricordi dimenticati e promesse mai mantenute.","""La piogia cadeva lenta sulle strade deserte mntre Marta osservava le luc della città dalla finestra del vecchio appartamento. Sul tavolo, una lettera ingiallita dal tempo raccontava segreti ke nessuno aveva mai avuto coraggio di pronunciare ad alta voce. Og parola sembrava riportare alla memoria ricordi dimenticati e promesse mai mantenute."
+SFT,testo 3.txt,code,code,news,"pythondef fibonacci(n):
+    sequence = [0, ]
+    for i in range(2, n):
+        for i in range(2, n):
+        sequence.append(sequence[i-1] + sequence[i-1] + sequence[i-2])
+    return sequence
+print(fibonacci(10))","pythondef fibonacci(n):
+    seqnce = [0, ]
+    for i in range(2, n):
+        for i in range(2, n):
+        seqnce.append(seqnce[i-1] + seqnce[i-1] + seqnce[i-2])
+    retrn seqnce
+print(fibonacci(10))"
+RLHF,testo 1.txt,news,news,news,"Il Ministero dell’Ambiente ha annunciato un nuovo piano nazionale per la riduzione delle emissioni entro il 2035. Secondo il comunicato ufficiale, saranno introdotti incentivi fiscali per le aziende che investiranno in energie rinnovabili e tecn a basso impatto ambientale. Gli esperti ritengono che il programma possa favorire una crescita significativa del settore green e creare migliaia di nuovi posti di lavoro nei prossimi anni.""","Il Minstero dell’Ambiente ha annunciato un nuovo piano nazionale per la riduzione delle emissioni entro il 2035. Secndo il comunicato ufficiale, saranno introdotti incentivi fiscali per le aziende ke investiranno in energie rinnovabili e tecn a basso impatto ambientale. Gli esperti ritengono ke il programma possa favorire una crescita significativa del settore green e creare migliaia di nuovi posti di lavoro nei prossimi anni."""
+RLHF,testo 2.txt,fiction,news,news,"""La pioggia cadeva lenta sulle strade deserte mentre Marta osservava le luc della città dalla finestra del vecchio appartamento. Sul tavolo, una lettera ingiallita dal tempo raccontava segreti che nessuno aveva mai avuto coraggio di pronunciare ad alta voce. Og parola sembrava riportare alla memoria ricordi dimenticati e promesse mai mantenute.","""La piogia cadeva lenta sulle strade deserte mntre Marta osservava le luc della città dalla finestra del vecchio appartamento. Sul tavolo, una lettera ingiallita dal tempo raccontava segreti ke nessuno aveva mai avuto coraggio di pronunciare ad alta voce. Og parola sembrava riportare alla memoria ricordi dimenticati e promesse mai mantenute."
+RLHF,testo 3.txt,code,code,news,"pythondef fibonacci(n):
+    sequence = [0, ]
+    for i in range(2, n):
+        for i in range(2, n):
+        sequence.append(sequence[i-1] + sequence[i-1] + sequence[i-2])
+    return sequence
+print(fibonacci(10))","pythondef fibonacci(n):
+    seqnce = [0, ]
+    for i in range(2, n):
+        for i in range(2, n):
+        seqnce.append(seqnce[i-1] + seqnce[i-1] + seqnce[i-2])
+    retrn seqnce
+print(fibonacci(10))"
