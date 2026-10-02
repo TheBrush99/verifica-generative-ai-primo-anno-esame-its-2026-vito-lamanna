@@ -1,0 +1,10 @@
+Report per il modello llama3.2
+
+Quantizzazione  Velocità (tok/s)  Qualità (0-10)  Memoria (GB)
+────────────────────────────────────────────────────────────
+q2_K                        65             6.1           1.2
+q4_K_M                      48             7.8           2.0
+q8_0                        28             8.9           3.8
+f16                         12             9.5           6.4
+
+Il livello di quantizzazione q4_K_M offre il miglior compromesso tra velocità e qualità, con una velocità di 48 token/s e un punteggio di qualità di 7.8, utilizzando 2.0 GB di memoria.
